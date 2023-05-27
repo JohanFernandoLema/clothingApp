@@ -12,6 +12,9 @@
       display: flex;
       align-items: center;
       gap: 25px;
+      .link {
+        text-decoration: none;
+      }
       .item {
         .flagsImage {
           width: 40px;
@@ -22,11 +25,17 @@
     .center {
       font-size: 30px;
       letter-spacing: 2px;
+      .link {
+        text-decoration: none;
+      }
     }
     .right {
       display: flex;
       align-items: center;
       gap: 25px;
+      .link {
+        text-decoration: none;
+      }
       .icons {
         display: flex;
         gap: 25px;
