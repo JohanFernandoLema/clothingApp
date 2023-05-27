@@ -4,7 +4,7 @@ import PersonIcon from '@mui/icons-material/Person'
 import FavoriteIcon from '@mui/icons-material/Favorite'
 import SearchIcon from '@mui/icons-material/Search'
 import { Link } from 'react-router-dom'
-import image from '../../../public/Assets/canadaMexico.jpeg'
+import image from '../../../src/Assets/canadaMexico.jpeg'
 import './Navbar.scss'
 function Navbar() {
   return (
