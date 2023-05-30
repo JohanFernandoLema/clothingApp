@@ -17,7 +17,6 @@ const Featured = ({ type }) => {
       id: 2,
       img: 'https://images.pexels.com/photos/157675/fashion-men-s-individuality-black-and-white-157675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       title: 'Fall Outfit',
-      isNew: true,
       oldPrice: 249,
       newPrice: 150,
     },
@@ -36,7 +35,7 @@ const Featured = ({ type }) => {
       </div>
       <div className="bottom">
         {data.map((item) => {
-          return <Card key={item.id}>{item}</Card>
+          return <Card item={item} key={item.id} />
         })}
       </div>
     </div>
