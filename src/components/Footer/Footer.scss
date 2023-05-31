@@ -1,0 +1,23 @@
+.footer {
+  background: #2d232e;
+  padding: 2rem;
+  .contactSection {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    height: auto;
+    font-size: 1.4rem;
+    .linkSocialM {
+      width: 40px;
+      height: 40px;
+      color: #fff;
+      margin: 0 2rem;
+    }
+  }
+  h4 {
+    background-color: #474448;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}

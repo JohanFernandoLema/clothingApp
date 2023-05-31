@@ -4,6 +4,7 @@ import Products from './pages/Products/Products'
 import Home from './pages/Home/Home'
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
+import Contact from './components/Contact/Contact'
 import './App.scss'
 
 const Layout = () => {
@@ -33,6 +34,10 @@ function App() {
         {
           path: '/product/:id',
           element: <Product />,
+        },
+        {
+          path: '/contact',
+          element: <Contact />,
         },
       ],
     },
