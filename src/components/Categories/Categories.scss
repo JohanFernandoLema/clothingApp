@@ -1,0 +1,122 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 98vw;
+  margin: auto;
+  gap: 0.5rem;
+  .item-1 {
+    background-image: url(../../Assets/saleSection.jpeg);
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 40vh;
+    background-size: cover;
+    object-fit: contain;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+      width: fit-content;
+      min-width: 3rem;
+      height: 2.5rem;
+      .links {
+        text-decoration: none;
+      }
+    }
+  }
+  .item-2 {
+    background-image: url(../../Assets/womanSection.jpeg);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    background-size: cover;
+    object-fit: contain;
+    grid-row-end: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+      width: fit-content;
+      min-width: 5rem;
+      height: 2.5rem;
+      .links {
+        text-decoration: none;
+      }
+    }
+  }
+  .item-3 {
+    background-image: url(../../Assets/menSection.jpeg);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+      width: fit-content;
+      min-width: 3rem;
+      height: 2.5rem;
+      .links {
+        text-decoration: none;
+      }
+    }
+  }
+  .item-4 {
+    background-image: url(../../Assets/kidsSection.jpeg);
+    grid-column-start: 4;
+    grid-column-end: 5;
+    height: 40vh;
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+      width: fit-content;
+      min-width: 3rem;
+      height: 2.5rem;
+      .links {
+        text-decoration: none;
+      }
+    }
+  }
+  .item-5 {
+    background-image: url(../../Assets/accessories.jpeg);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-size: cover;
+    object-fit: contain;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+      width: fit-content;
+      min-width: 6rem;
+      height: 2.5rem;
+      .links {
+        text-decoration: none;
+      }
+    }
+  }
+  .item-6 {
+    background-image: url(../../Assets/shoesSection.jpeg);
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-size: cover;
+    background-position: 1px;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+      width: fit-content;
+      height: 2.5rem;
+      min-width: 3rem;
+      .links {
+        text-decoration: none;
+      }
+    }
+  }
+}
