@@ -5,8 +5,11 @@ import FavoriteIcon from '@mui/icons-material/Favorite'
 import SearchIcon from '@mui/icons-material/Search'
 import { Link } from 'react-router-dom'
 import image from '../../../src/Assets/canadaMexico.jpeg'
+import { useState } from 'react'
 import './Navbar.scss'
+import Cart from '../Cart/Cart'
 function Navbar() {
+  const [open, setOpen] = useState(false)
   return (
     <div className="navbar">
       <div className="wrapper">
@@ -65,13 +68,14 @@ function Navbar() {
             <SearchIcon />
             <PersonIcon />
             <FavoriteIcon />
-            <div className="cartIcon">
+            <div className="cartIcon" onClick={() => setOpen(!open)}>
               <ShoppingBagIcon />
               <span>0</span>
             </div>
           </div>
         </div>
       </div>
+      {open && <Cart />}
     </div>
   )
 }
