@@ -50,11 +50,6 @@ const Product = () => {
             <Balance /> ADD TO COMPARE
           </div>
         </div>
-        <div className="info">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
         <hr />
         <div className="info">
           <span>DESCRIPTION</span>
